@@ -81,3 +81,20 @@ View the targets:
 touch .buckconfig
 buck targets //...
 ```
+
+## Graphing
+
+BuildInfer provides some functionality to generate a `*.dot` file that can be used to render using [GraphViz](https://www.graphviz.org/)
+
+- `buildinfer graph > graph.dot`
+
+     renders whole dependency graph
+
+- `buildinfer graph-minimal > graph-minimal.dot`
+
+     renders interaction graph between applications and files
+
+
+You can then use for example `sfdp` from the grapviz package to render an svg:
+
+`sfdp -Tsvg -Goutputmode=edgesfirst -Goverlap=prism graph.dot > graph.svg`
