@@ -64,7 +64,7 @@ buildinfer analyze . ./build
 Generate the new build script: 
 
 ```bash=
-buildinfer transpile
+buildinfer transpile > BUCK
 ```
 
 If you do not already have [Buck](https://buckbuild.com/) installed, we recommend using the [Debian package](https://github.com/facebook/buck/releases/tag/v2018.10.29.01). 
@@ -78,5 +78,6 @@ cat ./BUCK
 View the targets: 
 
 ```bash=
+touch .buckconfig
 buck targets //...
 ```
