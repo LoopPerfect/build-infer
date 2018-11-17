@@ -2,7 +2,7 @@
 
 Self-service distributions of BuildInfer. 
 
-We usually like to be on-hand to guide the transpilation process and fix any issue that arise, but if that does not work for your use-case, then we also provide this self-service page. 
+We usually like to be on-hand to guide the transpilation process and fix any issues that arise. If that does not work for your use-case, then we also provide this self-service page. 
 
 If you run into any problems, please get in-touch (support@loopperfect.com) or [create an issue](https://github.com/LoopPerfect/build-infer/issues/new). 
 
